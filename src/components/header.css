@@ -1,0 +1,46 @@
+.header {
+  background-color: #A29BD9;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  }
+  
+  .logo {
+    width: 200px; 
+    height: auto; 
+    margin-right: 10px; 
+  }
+  
+  /* Navigation Tabs */
+  .navigation {
+    margin-left: auto; /* Push the navigation to the right */
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 50px; /* Add spacing between the navigation items */
+  }
+  
+  .nav-item:last-child {
+    margin-right: 30; /* Remove spacing for the last item */
+  }
+  
+  /* Style the links */
+  .nav-item a {
+    text-decoration: none;
+    color: #333; /* Choose your preferred color */
+    font-weight: bold;
+    font-size: 25px; /* Increase the font size */
+    padding: 10px 20px; /* Add padding to make the tabs larger */
+  }
+  
+  /* Navbar Hover Effects */
+  .nav-item a:hover {
+    color: #007bff; /* Change the color on hover */
+  }
+  
